@@ -1,0 +1,7 @@
+C:\Users\jason\Documents\Visual Studio 2017\Projects\MSSAProjectV01\MSSAProjectV01\bin\Debug\MSSAProjectV01.exe.config
+C:\Users\jason\Documents\Visual Studio 2017\Projects\MSSAProjectV01\MSSAProjectV01\bin\Debug\MSSAProjectV01.exe
+C:\Users\jason\Documents\Visual Studio 2017\Projects\MSSAProjectV01\MSSAProjectV01\bin\Debug\MSSAProjectV01.pdb
+C:\Users\jason\Documents\Visual Studio 2017\Projects\MSSAProjectV01\MSSAProjectV01\obj\Debug\MSSAProjectV01.csprojResolveAssemblyReference.cache
+C:\Users\jason\Documents\Visual Studio 2017\Projects\MSSAProjectV01\MSSAProjectV01\obj\Debug\MSSAProjectV01.csproj.CoreCompileInputs.cache
+C:\Users\jason\Documents\Visual Studio 2017\Projects\MSSAProjectV01\MSSAProjectV01\obj\Debug\MSSAProjectV01.exe
+C:\Users\jason\Documents\Visual Studio 2017\Projects\MSSAProjectV01\MSSAProjectV01\obj\Debug\MSSAProjectV01.pdb
