@@ -8,11 +8,20 @@ namespace MSSAProjectV01
 {
     class Admin
     {
-        protected string email;
-        protected byte[] password;
+        protected string Email;
+        protected byte[] Password;
         protected string FirstName;
         protected string LastName;
-        protected string phone;
+        protected string Phone;
+
+        Admin(string email, byte[] password, string firstname, string lastname, string phone)
+        {
+            Email = email;
+            Password = password;
+            FirstName = firstname;
+            LastName = lastname;
+            Phone = phone;
+        }
 
         protected void CreateTeam()
         {

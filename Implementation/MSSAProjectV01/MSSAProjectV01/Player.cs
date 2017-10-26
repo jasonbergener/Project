@@ -8,54 +8,54 @@ namespace MSSAProjectV01
 {
     class Player
     {
-        protected string email;
-        protected byte[] password;
+        protected string Email;
+        protected byte[] Password;
         protected string FirstName;
         protected string LastName;
-        protected string phone;
-        protected string position;
-        protected Team team;
-        protected Dictionary<string, int> stats;
+        protected string Phone;
+        protected string Position;
+        protected Team Team;
+        protected Dictionary<string, int> Stats;
 
-        Player(string em, byte[] ba, string fn, string ln, string ph)
+        Player(string email, byte[] password, string firstname, string lastname, string phone)
         {
-            email = em;
-            password = ba;
-            FirstName = fn;
-            LastName = ln;
-            phone = ph;
-            stats = new Dictionary<string, int>()
+            Email = email;
+            Password = password;
+            FirstName = firstname;
+            LastName = lastname;
+            Phone = phone;
+            Stats = new Dictionary<string, int>()
             {
                 {"BA", -1}, {"HR", -1}, {"H", -1}, {"RBI", -1}, {"R", -1 }, {"SB", -1},
                 {"W", -1}, {"ERA", -1}, {"WHIP", -1}
             };
         }
 
-        Player(string em, byte[] ba, string fn, string ln, string ph, string pos)
+        Player(string email, byte[] password, string firstname, string lastname, string phone, string position)
         {
-            email = em;
-            password = ba;
-            FirstName = fn;
-            LastName = ln;
-            phone = ph;
-            position = pos;
-            stats = new Dictionary<string, int>()
+            Email = email;
+            Password = password;
+            FirstName = firstname;
+            LastName = lastname;
+            Phone = phone;
+            Position = position;
+            Stats = new Dictionary<string, int>()
             {
                 {"BA", -1}, {"HR", -1}, {"H", -1}, {"RBI", -1}, {"R", -1 }, {"SB", -1},
                 {"W", -1}, {"ERA", -1}, {"WHIP", -1}
             };
         }
 
-        Player(string em, byte[] ba, string fn, string ln, string ph, string pos, Team tm)
+        Player(string email, byte[] password, string firstname, string lastname, string phone, string position, Team team)
         {
-            email = em;
-            password = ba;
-            FirstName = fn;
-            LastName = ln;
-            phone = ph;
-            position = pos;
-            team = tm;
-            stats = new Dictionary<string, int>()
+            Email = email;
+            Password = password;
+            FirstName = firstname;
+            LastName = lastname;
+            Phone = phone;
+            Position = position;
+            Team = team;
+            Stats = new Dictionary<string, int>()
             {
                 {"BA", -1}, {"HR", -1}, {"H", -1}, {"RBI", -1}, {"R", -1 }, {"SB", -1},
                 {"W", -1}, {"ERA", -1}, {"WHIP", -1}
