@@ -4,4 +4,4 @@
 
 This repository contains the project files I collaborated on for the MSSA program.
 
-##Note: This project was canceled due to changes in the curriculum.
+## Note: This project was canceled due to changes in the curriculum.
